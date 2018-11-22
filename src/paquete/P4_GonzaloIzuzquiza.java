@@ -7,7 +7,8 @@ import java.awt.Color;
  * @author Gonzalo Izuzquiza
  */
 public class P4_GonzaloIzuzquiza extends javax.swing.JFrame {
-    XPATH gesXpath = new XPATH();
+    
+    XPATH gesXpath = new XPATH();    
     public P4_GonzaloIzuzquiza() {
         initComponents();
         this.getContentPane().setBackground(Color.RED); // damos color al fondo del jFrame
@@ -15,8 +16,6 @@ public class P4_GonzaloIzuzquiza extends javax.swing.JFrame {
         setSize(840, 540); //con esto damo un tamñano pasando dos parametros, siendo ancho y alto, a la pantalla
     }
     
-    
-
     
     
     @SuppressWarnings("unchecked")
@@ -48,7 +47,7 @@ public class P4_GonzaloIzuzquiza extends javax.swing.JFrame {
                         .addGap(134, 134, 134)
                         .addComponent(xpath_texto, javax.swing.GroupLayout.PREFERRED_SIZE, 221, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 512, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(44, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -57,7 +56,7 @@ public class P4_GonzaloIzuzquiza extends javax.swing.JFrame {
                 .addComponent(xpath_texto, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 378, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(77, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
